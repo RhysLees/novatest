@@ -100,6 +100,7 @@ return [
 
     'middleware' => [
         'web',
+        'auth.session',
         HandleInertiaRequests::class,
         DispatchServingNovaEvent::class,
         BootTools::class,
